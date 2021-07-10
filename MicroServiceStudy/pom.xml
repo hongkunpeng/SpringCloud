@@ -24,6 +24,7 @@
         <module>cloud-consumer-hystrix-dashboar</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center</module>
+        <module>cloud-config-client</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -1,15 +1,14 @@
 server:
   port: 3344
-  ​
-spring:
+​spring:
   application:
     name: cloud-config-center #注册进Eureka服务器的服务名称
-    cloud:
+  cloud:
       config:
         server:
           git:
             skipSslValidation: true # 跳过ssl认证
-            uri: https://git@github.com:hongkunpeng/springcloud-config.git  #GitHub上复制的项目地址
+            uri: https://github.com/hongkunpeng/springcloud-config.git  #GitHub上复制的项目地址
             search-paths:  #搜索目录
               - springcloud-config
         label: master   #读取分支
