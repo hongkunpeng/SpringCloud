@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloude-api-commons" />
+        <module name="cloude-consumerconsul-order" />
+        <module name="cloude-eureka-server7002" />
+        <module name="cloude-provider-hystrix-payment8881" />
+        <module name="cloude-eureka-server" />
+        <module name="cloude-cosumer-consul" />
+        <module name="cloude-consumer-order" />
+        <module name="cloude-consumer-feign-order" />
+        <module name="cloude-provide-payment" />
+        <module name="cloude-provide-payment04" />
+        <module name="cloude-provide-payment03" />
+        <module name="cloude-provide-payment02" />
+        <module name="cloud-consumer-hystrix-dashboar" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloude-providerconsul-payment04" />
+        <module name="cloud-config-center" />
+        <module name="cloud-consumer-feign-hystrix-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloude-cosumer-consul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
